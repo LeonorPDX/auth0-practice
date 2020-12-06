@@ -7,7 +7,9 @@ import "./index.css";
 
 ReactDOM.render(
   <Router>
-    <App />
+    <Auth0Provider>
+      <App />
+    </Auth0Provider>
   </Router>,
   document.getElementById("root")
 );
