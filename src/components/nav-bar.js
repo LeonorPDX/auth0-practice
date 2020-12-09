@@ -1,6 +1,8 @@
 import React from "react";
 
+import AuthNav from "./auth-nav";
 import MainNav from "./main-nav";
+
 
 const NavBar = () => {
   return (
@@ -9,6 +11,7 @@ const NavBar = () => {
         <div className="container">
           <div className="navbar-brand logo" />
           <MainNav />
+          <AuthNav />
         </div>
       </nav>
     </div>
